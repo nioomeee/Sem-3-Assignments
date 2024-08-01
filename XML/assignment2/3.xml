@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Create XML document OrderDetail where it contains the following
+data:
+Order_Detail(OrderNumber, Orderate, OrderAmount,ItemPrice,
+ItemName, Quantity)
+Create DTD declaration for OrderDetail where
+• OrderDate will appear as an attribute to OrderNumber
+• ItemName should come at least one time.
+• Order Amount should come only once.
+• Item Price and Quantity can come zero or more times. -->
+<!DOCTYPE Order_Detail SYSTEM "3.dtd">
+
+<Order_Detail>
+    <OrderNumber OrderDate="26-11-2012">611</OrderNumber>
+    <Amount>1500</Amount>
+    <ItemPrice>30</ItemPrice>
+    <ItemName>Soap</ItemName>
+    <Quantity>50</Quantity>
+</Order_Detail>

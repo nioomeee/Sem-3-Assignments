@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Create an XML document Email where it contains the following data :
+ Email (from , to ,content ( person , exercises(exercise (topic ,
+description) ) , course ). -->
+<Email>
+    <From>badbuk@gmail.com</From>
+    <To>budbak@gmail.com</To>
+    <Content>
+        <Person>Gyaan</Person>
+        <Exercises>
+            <Exercise>
+                <topic>Math</topic>
+                <Description>Algebra exercises</Description>
+            </Exercise>\
+
+            <Exercise>
+                <topic>Physics</topic>
+                <Description>Physics numericals</Description>
+            </Exercise>
+        </Exercises>
+        <Course>Advanced Studeies</Course>
+    </Content>
+</Email>

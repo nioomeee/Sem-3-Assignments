@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- Create an XML document Letter where it contains the following data :
+Letter (contact (name , address , city ,pin ,state , flag) , salutation
+, paragraph , closing , signature ) . The “contact “ element has an
+attribute “type” where it will declare type of person (eg :
+manager , officer etc as a value) .
+Create An External DTD for the above XML document where
+• contact should come atleast once.
+• flag element should an empty element
+• “flag” element has an attribute “gender” where it will declare as
+a male or female as a value and male as a default value.
+• The attribute type has a fixed value “sender” -->
+<!DOCTYPE Letter SYSTEM "9.dtd">
+
+<Letter>
+    <Contact type="sender">
+        <Name>John Cena</Name>
+        <Address>123 NewStreet, USA</Address>
+        <City>Venice</City>
+        <Pin>380001</Pin>
+        <State>California</State>
+        <Flag gender="male"></Flag>
+    </Contact>
+
+    <Salutation>Dear, Mr. Cena</Salutation>
+    <Paragraph>Hello, When are you thinking about showing up?</Paragraph>
+    <Closing>Sincerely,</Closing>
+    <Signature>Anant Ambani</Signature>
+</Letter>

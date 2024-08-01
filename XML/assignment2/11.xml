@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Create XML document for Student where it contains the following
+data:
+Student Name, Personal Info (Address, Birthdate,Gender, Mobile
+No, Address) ,Result(Total, Percentage, Grade)
+Create External DTD declaration for Student where
+• Gender has only two choices Male and Female as an element.
+• Grade element should have only one of these grade element
+(Pass, First, Dist., Second, Fail)
+Use conditional statement INCLUDE of student
+personal information DTD and IGNORE of result DTD) -->
+<!DOCTYPE Student SYSTEM "11.dtd">
+<Student>
+    <Name>Krishna</Name>
+    <PersonalInfo>
+        <Address>Gokul ki gali</Address>
+        <Birthdate>Janmashtmi</Birthdate>
+        <Gender>
+            <Male/>
+        </Gender>
+        <Mobile>999-RADHA</Mobile>
+    </PersonalInfo>
+    <!-- <Result>
+        <Total>350</Total>
+        <Percentage>70%</Percentage>
+        <Grade>
+            <Pass></Pass>
+        </Grade>
+    </Result> -->
+</Student>

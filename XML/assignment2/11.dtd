@@ -1,0 +1,27 @@
+<!ELEMENT Student (Name, PersonalInfo, Result?)>
+    <!ELEMENT Name (#PCDATA)>
+
+<!ENTITY % PersonalInfo "INCLUDE">
+
+<![ %PersonalInfo; [
+    <!ELEMENT PersonalInfo (Address, Birthdate, Gender, Mobile)>
+        <!ELEMENT Address (#PCDATA)>
+        <!ELEMENT Birthdate (#PCDATA)>
+        <!ELEMENT Gender (Male | Female)>
+            <!ELEMENT Male EMPTY>
+            <!ELEMENT Female EMPTY>
+        <!ELEMENT Mobile (#PCDATA)>
+]]>
+
+<!ENTITY % Result "IGNORE">
+
+<![ %Result; [
+    <!ELEMENT Total (#PCDATA)>
+    <!ELEMENT Percentage (#PCDATA)>
+    <!ELEMENT Grade (Pass | Fail | First | Second | Dist)>
+    <!ELEMENT Pass EMPTY>
+    <!ELEMENT Fail EMPTY>
+    <!ELEMENT First EMPTY>
+    <!ELEMENT Second EMPTY>
+    <!ELEMENT Dist EMPTY>
+]]>

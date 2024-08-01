@@ -1,0 +1,8 @@
+<!ELEMENT PersonalInfo (Rollno, Name, Address, Mobile, DOB, Age, Qualification)>
+<!ELEMENT Rollno (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Qualification (#PCDATA)>

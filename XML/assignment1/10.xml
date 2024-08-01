@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Create an XML document Employee where it contains the following data :
+Employee (Emp_no , name , Department , Manager Name, Project
+Assign (Proj_1 , Proj_2 ,Proj_3) , Designation) -->
+<Employee>
+    <Emp_no>899</Emp_no>
+    <Name>Orry</Name>
+    <Department>Liver</Department>
+    <Manager_name>Minion</Manager_name>
+    <ProjectAssign>
+        <Proj_1>Alpha</Proj_1>
+        <Proj_2>Beta</Proj_2>
+        <Proj_3>Gamma</Proj_3>
+    </ProjectAssign>
+    <Designation>Lead Actor</Designation>
+</Employee>

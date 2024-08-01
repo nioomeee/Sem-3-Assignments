@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Create an XML document Student where it contains the following data :
+Student(Name (fname & Lname) , ID , Plan (courses) ). In courses
+element take (year) as an attribute and (course) as an sub-element .
+And Course has name , shortName , record as its sub element. And
+again record has its sub element Grade , date. -->
+<StudentInfo>
+    <Student>
+        <Name>
+            <Fname>Niomi</Fname>
+            <Lname>Soni</Lname>
+        </Name>
+        <ID>046</ID>
+        <Plan>
+            <courses year="3">
+                <Name>Integrated Master of Science in Information Technology</Name>
+                <shortName>iMScIT</shortName>
+                <record>
+                    <Grade>O+</Grade>
+                    <Date>24-07-2024</Date>
+                </record>
+            </courses>
+        </Plan>
+    </Student>
+</StudentInfo>

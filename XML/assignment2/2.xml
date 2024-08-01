@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Create an XML document email where it contain the following data:
+Email(message) as an element and Message(from, to, subject)as
+an attribute.
+Create a DTD for the following XML document. -->
+<!DOCTYPE Email SYSTEM "2.dtd">
+<Email>
+    <Message from="Boots" to="Dora" subject="Missing">Hello, Where are you?</Message>
+</Email>
