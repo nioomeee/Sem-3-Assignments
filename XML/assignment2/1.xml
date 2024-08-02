@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="no"?>
 <!-- Create an XML document for storing personal information about
 student where it contains the following data:
 Personal Info( Roll no, Name, Address, Mobile, DOB, Age,
