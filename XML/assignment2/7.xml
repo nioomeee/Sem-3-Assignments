@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="no"?>
 <!-- Create an XML document Email where it contains the following data :
 Email (from , to ,content ( person , exercises(exercise (topic ,
 description) ) , course ).
