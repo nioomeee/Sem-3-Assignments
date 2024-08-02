@@ -7,7 +7,7 @@
 <!ELEMENT Pin (#PCDATA)>
 <!ELEMENT State (#PCDATA)>
 <!ELEMENT Flag EMPTY>
-<!ATTLIST Flag gender (male | female) #REQUIRED>
+<!ATTLIST Flag gender (male | female) "male">
 <!ELEMENT Salutation (#PCDATA)>
 <!ELEMENT Paragraph (#PCDATA)>
 <!ELEMENT Closing (#PCDATA)>
