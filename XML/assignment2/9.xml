@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="no"?>
 <!-- Create an XML document Letter where it contains the following data :
 Letter (contact (name , address , city ,pin ,state , flag) , salutation
 , paragraph , closing , signature ) . The “contact “ element has an
