@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="no"?>
 <!-- Create an XML document Student_info where it contains the following
 data :
 Student((which_course as attribute), name, contact_no),
@@ -18,7 +18,7 @@ Create An External DTD for the above XML document where
 
     <Student which_course="c_20">
         <Name>Prerna</Name>
-        <contact_no contact="9198889999"></contact_no>
+        <contact_no contact="$defaultCon;"/>
     </Student>
 
     <Course c_id="c_20">
