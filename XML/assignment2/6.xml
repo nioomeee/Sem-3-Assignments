@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="no"?>
 <!-- Create an XML document Student where it contains the following data:
 Student(Name (fname & Lname) , ID , Plan (courses) ). In
 courses element take (year) as an attribute and (course) as an
