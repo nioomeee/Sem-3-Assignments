@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE Library [
+    <!ENTITY common "chetan bhagat">
+    <!ELEMENT Library (book+)>
+    <!ELEMENT book (title, Author, Year)>
+    <!ATTLIST book isbn ID #REQUIRED>
+    <!ATTLIST book genre (Fiction | Non-Fiction | Sci-Fi) #REQUIRED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT Year (#PCDATA)>
+]>
+<Library>
+    <book isbn="b_201" genre="Fiction">
+        <title>2 states</title>
+        <Author>&common;</Author>
+        <Year>2009</Year>
+    </book>
+</Library>
