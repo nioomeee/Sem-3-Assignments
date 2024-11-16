@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Create XML document OrderDetail where it contains the following data:
+Order Detail(Order Number, Order Date, Order Amount,Item Price,
+Item Name, Quantity) -->
+
+<orderDeatail>
+    <ordernum>A101</ordernum>
+    <orderDate>03/04/2024</orderDate>
+    <orderAmt>56000</orderAmt>
+    <itemPrice>56</itemPrice>
+    <itemName>Soap</itemName>
+    <Quantity>1000</Quantity>
+</orderDeatail>
