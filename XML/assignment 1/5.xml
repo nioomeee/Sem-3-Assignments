@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Create an XML document Books where it contains the following data :
+Books (book (title) as an attribute , author , year , publisher ).  -->
+<Books>
+    <book title="2 states">
+        <author>Chetan Bhagat</author>
+        <year>1998</year>
+        <publisher>xyz books</publisher>
+    </book>
+    <book title="Half girlfiend">
+        <author>Chetan Bhagat</author>
+        <year>1997</year>
+        <publisher>books publisher</publisher>
+    </book>
+</Books>
