@@ -9,7 +9,7 @@ Create An External DTD for the above XML document. -->
     <rollNo>56</rollNo>
     <name>DOnald Duck</name>
     <address>Disneyland</address>
-    <Mobile>1115558889</Mobile>
+    <mobile>1115558889</mobile>
     <DOB>03/04/1996</DOB>
     <Age>36</Age>
     <Qualification>A</Qualification>
