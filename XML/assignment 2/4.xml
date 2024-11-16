@@ -7,6 +7,7 @@ Create External DTD declaration for Student where
 • Gender has only two choices Male and Female as an element.
 • Grade element should have only one of these grade element
 (Pass, First, Dist., Second, Fail) -->
+<!DOCTYPE StudentInfo SYSTEM "4.dtd">
 <StudentInfo>
     <Name>Donald</Name>
     <personalInfo>
@@ -19,6 +20,6 @@ Create External DTD declaration for Student where
     <Result>
         <total>600</total>
         <percentage>80%</percentage>
-        <grade><second/></grade>
+        <grade><Second/></grade>
     </Result>
 </StudentInfo>
