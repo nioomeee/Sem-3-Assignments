@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an XML document Email where it contains the following data :
+Email (from , to ,content ( person , exercises(exercise (topic ,
+description) ) , course ).
+Create An External DTD for the above XML document where
+• Content element of email should be mixed content.
+• Exercises can have multiple exercise element. -->
+<!DOCTYPE Email SYSTEM "7.dtd">
+<Email>
+    <From>Teacher@hotmail.com</From>
+    <To>Student@yahoo.com</To>
+    <Content>
+        Dear Student
+        <Person>Minnie Mouse</Person>
+        Please review the following homework:
+        <Exercises>
+            <Exercise>
+                <Topic>Physics</Topic>
+                <Description>Newton's Law</Description>
+            </Exercise>
+            <Exercise>
+                <Topic>Biology</Topic>
+                <Description>Cell structure</Description>
+            </Exercise>
+        </Exercises>
+        The course you're enrolled in is: 
+        <Course>Introductory Science</Course>
+    </Content>
+</Email>
