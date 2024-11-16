@@ -1,0 +1,1 @@
+<!ELEMENT personalInfo (rollNo, name, address, mobile, DOB, Age, Qualification)>
