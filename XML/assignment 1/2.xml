@@ -16,11 +16,11 @@ Qualification) -->
 
     <personalInfo>
         <rollNo>56</rollNo>
-        <name>DOnald Duck</name>
-        <address>Disneyland</address>
-        <Mobile>1115558889</Mobile>
-        <DOB>03/04/1996</DOB>
-        <Age>36</Age>
-        <Qualification>A</Qualification>
+        <name>Barbie</name>
+        <address>Malibu</address>
+        <Mobile>9998887776</Mobile>
+        <DOB>25/03/1998</DOB>
+        <Age>21</Age>
+        <Qualification>Fashion designer</Qualification>
     </personalInfo>
 </studentInfo>
