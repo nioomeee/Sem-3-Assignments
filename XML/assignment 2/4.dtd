@@ -1,0 +1,4 @@
+<!ELEMENT StudentInfo (Name, personalInfo, Result)>
+
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT personalinfo (address, birthdate, gender, mobile)>
