@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an XML document Email where it contains the following data :
+Email (from , to ,content ( person , exercises(exercise (topic ,
+description) ) , course ).
+-->
+<Email>
+    <from>Donald</from>
+    <to>mickey</to>
+    <content>
+        <person>mickey</person>
+        <exercises>
+            <exercise>
+                <topic>Maths polynomial</topic>
+                <description>solve these exercises: 2.1, 2.5, 2.7</description>
+            </exercise>
+        </exercises>
+    </content>
+    <course>Advance Maths</course>
+</Email>
