@@ -1,0 +1,10 @@
+101|Anil|Delhi|25000
+102|Sunil|Mumbai|30000
+103|Anil|Delhi|25000
+104|Ramesh|Banglore|35000
+105|Suresh|Chennai|40000
+106|Mahesh|Delhi|28000
+107|Naresh|Mumbai|33000
+108|Rajesh|Banglore|38000
+109|Mukesh|Chennai|43000
+110|Dinesh|Delhi|30000

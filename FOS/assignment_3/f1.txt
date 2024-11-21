@@ -1,0 +1,6 @@
+1 Mangoes 45 3.45USD
+2 Apples 25 2.45USD
+3 Pineapples 5 4.45USD
+4 Tomatoes 25 3.45USD
+5 Onions 15 1.45USD
+6 Bananas 30 3.45USD
