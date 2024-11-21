@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an XML document Student where it contains the following data
+:
+Student(Name (fname & Lname as attribute) , ID , Plan (courses)
+).
+convert this XML file into HTML file which can have fname as element
+(ID as attribute) and course should be child element of fname -->

@@ -1,0 +1,8 @@
+<!ENTITY number "123-456-7890">
+<!ELEMENT Student_info (Student+, Course+, Subject+)>
+<!ELEMENT Student (Name, Contact)>
+<!ELEMENT Contact (#NMTOKEN)>
+<!ELEMENT Course (Name)>
+<!ELEMENT Name (#PCDATA)> 
+<!ELEMENT Subject EMPTY>
+<!ATTLIST Subject name (JAVA | XML | OS) #REQUIRED>

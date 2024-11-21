@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an XML document Letter where it contains the following data :
+Letter (contact (name , address , city ,pin ,state , flag) , salutation
+, paragraph , closing , signature ) . The “contact “ element has an
+attribute “type” where it will declare type of person (eg :
+manager , officer etc as a value) .
+Create An External DTD for the above XML document where
+• contact should come atleast once.
+• flag element should an empty element
+• “flag” element has an attribute “gender” where it will declare as
+a male or female as a value and male as a default value.
+• The attribute type has a fixed value “sender” -->
+<!DOCTYPE Letter SYSTEM "9.dtd">
+<Letter>
+    <Contact type="sender">
+        <Name>Donald</Name>
+        <Address>Disneyland</Address>
+        <City>Hong Kong</City>
+        <Pin>56003</Pin>
+        <State>China</State>
+        <Flag gender="Male" />
+    </Contact>
+
+    <Salutation>Dear Sir,</Salutation>
+
+    <Paragraph>This is a formal letter to inform you about the recent changes in our company policy.</Paragraph>
+
+    <Closing>Sincerely,</Closing>
+
+    <Signature>Donald Duck</Signature>
+</Letter>

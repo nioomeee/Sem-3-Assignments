@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an XML document template to capture information about
+salesperson where it contains the following data:
+Name, Business Info (Company, Department, Manager,
+Phone no, Email) Personal Info (Phone no, Address).
+Capture this information in an XML format.
+Write a schema that defines that Department value
+should be restricted by the following values only (Sales,
+Financial, Operation, Database) -->
+<Salesperson>
+    <Name>John Doe</Name>
+    <Business_Info>
+        <Company>ABC Corp</Company>
+        <Department>Sales</Department>
+        <Manager>Jane Doe</Manager>
+        <Phone_no>123-456-7890</Phone_no>
+        <Email>john.doe@abc.com</Email>
+    </Business_Info>
+    <Personal_Info>
+        <Phone_no>987-654-3210</Phone_no>
+        <Address>123 Main St</Address>
+    </Personal_Info>
+</Salesperson>

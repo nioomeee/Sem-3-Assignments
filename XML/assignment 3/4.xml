@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Write a schema for a case where we want to keep the information
+about the children of employees. One employee can have at the most
+two children. A child can be a boy or a girl. -->
+<Employees>
+  <Employee>
+    <Name>John Doe</Name>
+    <Children>
+      <Child>
+        <Gender>Boy</Gender>
+        <name>Mike Doe</name>
+      </Child>
+      <Child>
+        <Gender>Girl</Gender>
+        <name>Jane Doe</name>
+      </Child>
+    </Children>
+  </Employee>
+  <Employee>
+    <Name>Jane Smith</Name>
+    <Children>
+      <Child>
+        <Gender>Boy</Gender>
+        <name>Peter Smith</name>
+      </Child>
+    </Children>
+  </Employee>
+</Employees>

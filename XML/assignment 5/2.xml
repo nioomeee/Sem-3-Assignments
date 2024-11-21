@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Write an XML document which includes
+Order_Detail(OrderNumber, Orderate, OrderAmount,ItemPrice,
+ItemName, Quantity)
+Create XSLT file which will display all the details in formated table. -->
+<Order_Details>
+    <Order_Detail>
+        <OrderNumber>101</OrderNumber>
+        <OrderDate>2024-03-10</OrderDate>
+        <OrderAmount>1000</OrderAmount>
+        <ItemPrice>200</ItemPrice>
+        <ItemName>Laptop</ItemName>
+        <Quantity>5</Quantity>
+    </Order_Detail>
+    <Order_Detail>
+        <OrderNumber>102</OrderNumber>
+        <OrderDate>2024-03-15</OrderDate>
+        <OrderAmount>500</OrderAmount>
+        <ItemPrice>100</ItemPrice>
+        <ItemName>Keyboard</ItemName>
+        <Quantity>5</Quantity>
+    </Order_Detail>
+</Order_Details>

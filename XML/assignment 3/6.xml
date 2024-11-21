@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Write an XML document and corresponding XML schema for
+maintaining the employee number, name, designation, and salary. -->
+<Employee>
+    <Emp_no>124</Emp_no>
+    
+</Employee>

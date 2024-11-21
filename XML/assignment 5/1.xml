@@ -4,9 +4,18 @@
 2. Display the employee number below this, in a smaller font.
 XML file should include, emp_info(employee(emp_name: empID as
 an attribute), firstname and lastname)) -->
-<Employee>
-    <Emp_name empID = "B211">
-        <firstname>Malika</firstname>
-        <firstname>Sharma</firstname>
-    </Emp_name>
-</Employee>
+<Employees>
+    <Employee>
+        <Emp_name empID = "B211">
+            <firstname>Malika</firstname>
+            <lastname>Sharma</lastname>
+        </Emp_name>
+    </Employee>
+
+    <Employee>
+        <Emp_name empID = "A46">
+            <firstname>Niomi</firstname>
+            <lastname>Soni</lastname>
+        </Emp_name>
+    </Employee>
+</Employees>

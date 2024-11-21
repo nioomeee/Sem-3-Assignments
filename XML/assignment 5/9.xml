@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an XML document Student where it contains the following
+data :
+Student (Roll_no , Name , Marks , Rank, Result)
+Create XSLT file where Roll_no should start with number 1. take 10
+students details -->
+<Students>
+    <Student>
+        <Roll_no>90</Roll_no>
+        <Name>Alice</Name>
+        <Marks>95</Marks>
+        <Rank>1</Rank>
+        <Result>Pass</Result>
+    </Student>
+    <Student>
+        <Roll_no>49</Roll_no>
+        <Name>Bob</Name>
+        <Marks>85</Marks>
+        <Rank>2</Rank>
+        <Result>Pass</Result>
+    </Student>
+    <Student>
+        <Roll_no>63</Roll_no>
+        <Name>Charlie</Name>
+        <Marks>72</Marks>
+        <Rank>3</Rank>
+        <Result>Pass</Result>
+    </Student>
+    <Student>
+        <Roll_no>104</Roll_no>
+        <Name>Diana</Name>
+        <Marks>65</Marks>
+        <Rank>4</Rank>
+        <Result>Pass</Result>
+    </Student>
+    <Student>
+        <Roll_no>11</Roll_no>
+        <Name>Edward</Name>
+        <Marks>50</Marks>
+        <Rank>5</Rank>
+        <Result>Fail</Result>
+    </Student>
+    <Student>
+        <Roll_no>30</Roll_no>
+        <Name>Fiona</Name>
+        <Marks>82</Marks>
+        <Rank>6</Rank>
+        <Result>Pass</Result>
+    </Student>
+    <Student>
+        <Roll_no>21</Roll_no>
+        <Name>George</Name>
+        <Marks>78</Marks>
+        <Rank>7</Rank>
+        <Result>Pass</Result>
+    </Student>
+    <Student>
+        <Roll_no>19</Roll_no>
+        <Name>Hannah</Name>
+        <Marks>68</Marks>
+        <Rank>8</Rank>
+        <Result>Pass</Result>
+    </Student>
+    <Student>
+        <Roll_no>111</Roll_no>
+        <Name>Ian</Name>
+        <Marks>45</Marks>
+        <Rank>9</Rank>
+        <Result>Fail</Result>
+    </Student>
+    <Student>
+        <Roll_no>16</Roll_no>
+        <Name>Jane</Name>
+        <Marks>90</Marks>
+        <Rank>10</Rank>
+        <Result>Pass</Result>
+    </Student>
+</Students>

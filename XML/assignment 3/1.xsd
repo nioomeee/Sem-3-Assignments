@@ -1,0 +1,19 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="Students">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Student" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="firstname" type="xsd:string"/>
+                            <xsd:element name="lastname" type="xsd:string"/>
+                            <xsd:element name="address" type="xsd:string"/>
+                            <xsd:element name="percentage" type="xsd:string"/>
+                            <xsd:element name="currentyear" type="xsd:int"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

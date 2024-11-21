@@ -1,0 +1,42 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="Salesperson">
+        <xsd:complexType>
+            <xsd:sequence>
+
+                <xsd:element name="Name" type="xsd:string"/>
+
+                <xsd:element name="Business_Info">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Company" type="xsd:string"/>
+                            <xsd:element name="Department">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="Sales" />
+                                        <xsd:enumeration value="Financial" />
+                                        <xsd:enumeration value="Operation" />
+                                        <xsd:enumeration value="Database" />
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="Manager" type="xsd:string"/>
+                            <xsd:element name="Phone_no" type="xsd:string"/>
+                            <xsd:element name="Email" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+
+                </xsd:element>
+
+                <xsd:element name="Personal_Info">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Phone_no" type="xsd:string"/>
+                            <xsd:element name="Address" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

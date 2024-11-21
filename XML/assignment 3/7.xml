@@ -1,0 +1,17 @@
+<!-- Create an XML document template to capture information aboutIteams where
+it contains the following data:
+Name, Category (veg , nonveg), company Info (Phone no, Address).
+Capture this information in an XML format.
+Write a schema that defines that vage value
+should be restricted by the following values only (Chips, Biscuits,
+salad,Bread) -->
+<Iteams>
+    <Item>
+        <Name>Chips</Name>
+        <Category>veg</Category>
+        <Company_Info>
+            <Phone_no>123-456-7890</Phone_no>
+            <Address>123 Main St</Address>
+        </Company_Info>
+    </Item>
+</Iteams>

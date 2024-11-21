@@ -1,0 +1,44 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="Students">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Student" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            
+                            <xsd:element name="Name" type="xsd:string"/>
+
+                            <xsd:element name="Personal_Info">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Address" type="xsd:string"/>
+                                        <xsd:element name="Birthdate" type="xsd:string"/>
+                                        <xsd:element name="Gender" type="xsd:string"/>
+                                        <xsd:element name="Mobile_No">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:pattern value="\d{10}"/>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+
+                            <xsd:element name="Result">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Total" type="xsd:string"/>
+                                        <xsd:element name="Percentage" type="xsd:string"/>
+                                        <xsd:element name="Grade" type="xsd:string"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

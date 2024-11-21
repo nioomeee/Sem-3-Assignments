@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- Create an XML document Books where it contains the following data :
+Books (book (title) as an attribute , author , year , publisher ). add 5
+data.
+Write XSLT document which displays books published <1998 -->
+<Books>
+    <Book title="How to kill a mockingbird">
+        <Author>Chetan Bhagat</Author>
+        <Year>1996</Year>
+        <Publisher>XYZ publications</Publisher>
+    </Book>
+
+    <Book title="You only live once">
+        <Author>Stuti changle</Author>
+        <Year>2001</Year>
+        <Publisher>Street boy publications</Publisher>
+    </Book>
+
+    <Book title="The fault in our stars">
+        <Author>John green</Author>
+        <Year>1997</Year>
+        <Publisher>Harper Collins</Publisher>
+    </Book>
+
+    <Book title="The kite runner">
+        <Author>Khaled Hosseini</Author>
+        <Year>2003</Year>
+        <Publisher>Riverhead Books</Publisher>
+    </Book>
+
+    <Book title="The alchemist">
+        <Author>Paulo Coelho</Author>
+        <Year>1988</Year>
+        <Publisher>HarperOne</Publisher>
+    </Book>
+
+    <Book title="Rich dad poor dad">
+        <Author>Robert Kiyosaki</Author>
+        <Year>1997</Year>
+        <Publisher>Plata Publishing</Publisher>
+    </Book>
+
+</Books>

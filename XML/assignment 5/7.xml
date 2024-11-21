@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create an XML document Email where it contains the following data :
+Student (Roll_no , Name , Marks , Rank)
+Create XSLT file which may satisfy following conditions:
+if Rank <=5 display “top Students”
+if Rank >5 and Rank <=10 display “Top 10 students”
+else display “Average Students” -->
+<Students>
+    <Student>
+        <Roll_no>1</Roll_no>
+        <Name>Alice</Name>
+        <Marks>95</Marks>
+        <Rank>1</Rank>
+    </Student>
+    <Student>
+        <Roll_no>2</Roll_no>
+        <Name>Bob</Name>
+        <Marks>92</Marks>
+        <Rank>2</Rank>
+    </Student>
+    <Student>
+        <Roll_no>3</Roll_no>
+        <Name>Charlie</Name>
+        <Marks>88</Marks>
+        <Rank>13</Rank>
+    </Student>
+    <Student>
+        <Roll_no>4</Roll_no>
+        <Name>David</Name>
+        <Marks>85</Marks>
+        <Rank>46</Rank>
+    </Student>
+    <Student>
+        <Roll_no>5</Roll_no>
+        <Name>Eve</Name>
+        <Marks>82</Marks>
+        <Rank>5</Rank>
+    </Student>
+    <Student>
+        <Roll_no>6</Roll_no>
+        <Name>Jona</Name>
+        <Marks>78</Marks>
+        <Rank>66</Rank>
+    </Student>
+    <Student>
+        <Roll_no>7</Roll_no>
+        <Name>Frank</Name>
+        <Marks>75</Marks>
+        <Rank>7</Rank>
+    </Student>
+    <Student>
+        <Roll_no>8</Roll_no>
+        <Name>Mia</Name>
+        <Marks>72</Marks>
+        <Rank>8</Rank>
+    </Student>
+    <Student>
+        <Roll_no>9</Roll_no>
+        <Name>Noah</Name>
+        <Marks>68</Marks>
+        <Rank>9</Rank>
+    </Student>
+</Students>
