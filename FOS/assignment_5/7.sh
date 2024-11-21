@@ -9,7 +9,7 @@ while true; do
     echo "1. display dynamic real time view of running system"
     echo "2. display full format list of processes"
     echo "3. display your hostname on terminal"
-    echo "4. isplay routing table"
+    echo "4. display routing table"
     echo "5. exit"
     read -p "Enter your choice: " choice
 

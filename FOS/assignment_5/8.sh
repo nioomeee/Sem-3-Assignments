@@ -18,7 +18,7 @@ while true; do
     case $choice in
     1) ping -c 4 google.com
     ;;
-    2)grep "nameserver" /etc/resolv.conf
+    2)dig www.google.com
     ;;
     3)mount --version
     ;;
