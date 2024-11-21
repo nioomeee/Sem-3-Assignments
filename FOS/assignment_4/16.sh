@@ -22,10 +22,10 @@ find . -type f -perm 0777 -print
 find . -type f ! -perm 0777 -print
 
 #  • Find Read Only files
-find . -perm /u=r
+find . -perm /u=r -print
 
 #  • Find Executable files
-find . -perm /a=x
+find . -perm /a=x -ptint
 
 #  • Find Empty files
 find /tmp -type f -empty 
