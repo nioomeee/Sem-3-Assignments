@@ -25,16 +25,16 @@ find . -type f ! -perm 0777 -print
 find . -perm /u=r -print
 
 #  • Find Executable files
-find . -perm /a=x -ptint
+find . -perm /a=x -print
 
 #  • Find Empty files
-find /tmp -type f -empty 
+find . -type f -empty
 
 #  • Find Empty directories
-find /tmp -type -d -empty
+find . -type d -empty
 
 #  • Find Read & Write Files
 find . -perm /u=rw
 
 #  • Find all Hidden Files.
-find /tmp -type f -name ".*"
+find . -type f -name ".*"

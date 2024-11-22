@@ -1,4 +1,5 @@
 # Write a shell script that will perform following commands:
+
 #  • Create a tar file that hold multiple folder in it. 
 tar_file="archive.tar"
 

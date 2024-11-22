@@ -20,11 +20,11 @@ while true; do
     ;;
     2)dig www.google.com
     ;;
-    3)mount --version
+    3)mount -V
     ;;
-    4)ps -r
+    4)jobs -r
     ;;
-    5)ps -e | grep "?"
+    5)ps -a
     ;;
     6)echo "exiting.."
     break;
