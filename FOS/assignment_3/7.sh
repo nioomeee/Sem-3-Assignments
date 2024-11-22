@@ -1,6 +1,6 @@
 # Write a shell script to perform following task on emp file
 #  a. display eno,ename and city from emp file
-awk -F '|' '{print $1 $2 $3}' emp.txt
+awk -F '|' '{print $1, $2, $3}' emp.txt
 
 #  b. display ename like only 2 character should display in one line
 awk -F '|' '{print substr($2, 1, 2)}' emp.txt

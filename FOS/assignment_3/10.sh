@@ -12,7 +12,7 @@ if [ -f "$file" ]; then
     tail -n 5 $file
     read -p "Enter 2nd file name: " file2
     if [ -f "$file2" ]; then
-        paste -d '|' $file $file2
+        paste -s -d '|' $file $file2
     else
         echo "The file $file2 doesn't exist"
     fi

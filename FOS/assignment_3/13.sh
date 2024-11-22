@@ -10,7 +10,6 @@ if [ -f $file ]; then
     else
         sort -r "$file"
     fi
-
 else
     echo "$file file doesn't exist"
 fi
