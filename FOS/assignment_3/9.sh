@@ -1,4 +1,5 @@
 # Write a shell script to perform following task on student file
+
 #  a. cut city from student file and store it in new file
 awk -F '|' '{print $3}' student > city.txt
 

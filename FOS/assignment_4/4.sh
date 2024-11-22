@@ -1,4 +1,5 @@
 #  Write a shell script that display disk file system in the following criteria:
+
 #  • Display file informaton of dummy files. 
 du -a
 # • Display sizes in Human Readable Format.
@@ -12,4 +13,4 @@ df -m
 #  • To check the file system type
 df -T
 #  • To see the information of only device /home file system in human readable format.
-df -hT /home
+df -h /home
